@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/celerity/static/css/main.ce2ebf88.css",
+    "main.js": "/celerity/static/js/main.95a03d31.js",
+    "static/js/787.cda612ba.chunk.js": "/celerity/static/js/787.cda612ba.chunk.js",
+    "static/media/Frame 64.png": "/celerity/static/media/Frame 64.6547c5d95606dc3e84d5.png",
+    "index.html": "/celerity/index.html",
+    "main.ce2ebf88.css.map": "/celerity/static/css/main.ce2ebf88.css.map",
+    "main.95a03d31.js.map": "/celerity/static/js/main.95a03d31.js.map",
+    "787.cda612ba.chunk.js.map": "/celerity/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce2ebf88.css",
+    "static/js/main.95a03d31.js"
+  ]
+}
