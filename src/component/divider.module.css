@@ -1,0 +1,7 @@
+.image1{
+    width:99vw;
+    height:140px;
+    background-image: url("../images/Vector\ 1.png"), url("../images/Vector\ 2.png");
+   background-blend-mode: lighten;
+ }
+ 

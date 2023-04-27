@@ -1,0 +1,365 @@
+.booking {
+  position: relative;
+  padding: 3rem;
+}
+
+.list {
+  width: 40%;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -20%);
+  padding: 1rem;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  border: 2px solid #d3b0ff;
+  width: 90%;
+  position: absolute;
+  top: 40%;
+  display: inline-block;
+  z-index: -100;
+  transform: translateY(-50%);
+}
+
+.circle {
+  width: 39px;
+  height: 39px;
+  display: inline-block;
+  fill: #d3b0ff;
+  z-index: 200;
+  border: 5px solid #fff;
+}
+
+.form {
+  width: 90%;
+  height: 5rem;
+  position: relative;
+  margin: auto;
+  margin-top: 8rem;
+  background: #ffffff;
+  box-shadow: 296px 536px 245px rgba(21, 31, 72, 0.01),
+    167px 302px 207px rgba(21, 31, 72, 0.05),
+    74px 134px 153px rgba(21, 31, 72, 0.09),
+    19px 34px 84px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.formText {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #868686;
+}
+
+.formpencil {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  background: #9747ff;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  margin:0;
+}
+
+.bookingline {
+  border: 1px solid rgba(180, 180, 180, 0.6);
+}
+
+.body {
+  display: flex;
+}
+
+.left {
+  width: 25%;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.listheading {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.bookinglist {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bookingitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  width: 80%;
+}
+
+.itemtext {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.itemsticker {
+  border: none;
+  width: 40px;
+  height: 30px;
+}
+
+.right {
+  padding: 1rem;
+}
+
+.toplist {
+  background: #ebe8ff;
+  box-shadow: 14px 216px 86px rgba(21, 31, 72, 0.01),
+    8px 121px 73px rgba(21, 31, 72, 0.05), 3px 54px 54px rgba(21, 31, 72, 0.09),
+    1px 13px 30px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+  width: 720px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.listtext {
+  background: #ffffff;
+  /* box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.1); */
+  border-radius: 14px;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 120%;
+  color: #9747ff;
+  padding: 0.8rem 3rem;
+}
+
+.listtext1 {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 120%;
+  color: #868686;
+  padding: 0.8rem 2.8rem;
+}
+
+.cardbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+
+.card {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid rgba(218, 218, 218, 0.4);
+  box-shadow: 39px 216px 88px rgba(0, 0, 0, 0.01),
+    22px 122px 74px rgba(0, 0, 0, 0.05), 10px 54px 55px rgba(0, 0, 0, 0.09),
+    2px 14px 30px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  width: 800px;
+  height: 130px;
+  padding: 0.5rem 1rem;
+  margin:.5rem 0;
+}
+
+.cardLeft {
+  width: 85%;
+}
+
+.cardtoptext {
+  display: flex;
+  align-items: center;
+}
+
+.value {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #afffad;
+  border-radius: 12px;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  margin-right: 1rem;
+  border: none;
+}
+
+.value1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background:  #ADBFFF;
+  border-radius: 12px;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+  flex: none;
+  margin-right: 1rem;
+  border: none;
+}
+
+.time {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 120%;
+  text-align: center;
+  color: #565656;
+}
+
+.express {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  text-align: center;
+  color: #ff0000;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 24rem;
+  margin-bottom: 0.7rem;
+}
+
+.smalltext {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  text-align: center;
+  color: #565656;
+  margin: 0;
+}
+
+.cardLine {
+  width: 40px;
+  border: 1px solid #565656;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  width: 18rem;
+  justify-content: space-between;
+}
+
+.image {
+  width: 50px;
+  height: 30px;
+  background-image: url("../images/Frame\ 64.png");
+}
+
+.smallname {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 120%;
+  text-align: center;
+  color: #808080;
+}
+
+.cardRight {
+  display: flex;
+}
+.verticalLine {
+  border: 1px solid rgba(163, 163, 163, 0.4);
+}
+
+.rightText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: .5rem 1rem;
+}
+
+.textrate {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+  margin:0;
+}
+
+.rightButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 34px;
+  gap: 10px;
+
+  width: 100px;
+  height: 40px;
+
+  background: #6f57e9;
+  border-radius: 14px;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+
+.anchor {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 120%;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #363636;
+}

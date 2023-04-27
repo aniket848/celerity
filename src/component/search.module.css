@@ -1,0 +1,191 @@
+.search {
+  padding: 0 3rem;
+  margin-top: 0.5rem;
+}
+
+.top {
+  display: flex;
+  /* position: fixed; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topText {
+  font-family: "PP Cirka";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 39px;
+}
+
+.topText2 {
+  color: #6f57e9;
+  font-family: "PP Cirka";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 39px;
+}
+
+.topbutton1 {
+  border: 3px solid #6f57e9;
+  background-color: transparent;
+  border-radius: 10px;
+  color: #6f57e9;
+  padding: 0.8rem;
+  font-size: 19px;
+}
+
+.topbutton2 {
+  color: #fff;
+  background-color: #6f57e9;
+  border-radius: 10px;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  border: none;
+  padding: 0.8rem;
+  margin-left: 2rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.mainHeading {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.secHeading {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 3rem;
+}
+
+.form {
+  width: 90%;
+  height: 5rem;
+  /* position: absolute;
+  left: 50%;
+  transform: translateX(-50%); */
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 296px 536px 245px rgba(21, 31, 72, 0.01),
+    167px 302px 207px rgba(21, 31, 72, 0.05),
+    74px 134px 153px rgba(21, 31, 72, 0.09),
+    19px 34px 84px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.formText {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #868686;
+}
+
+.formButton {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  background: #9747ff;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+}
+
+.serviceHeading {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 28px 24px;
+  width: 280px;
+  height: 170px;
+  background: #ffffff;
+  box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01),
+    0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09),
+    0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.boxTop {
+  display: flex;
+  justify-content: space-evenly;
+  width:100%;
+  align-items: center;
+}
+
+.boxLeft {
+  font-size: 20px;
+}
+
+.boxRight {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+}
+
+.boxLine {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.boxText {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #535353;
+}
+
+
+.image1{
+   width:100%;
+   height:140px;
+   background-image: url("../images/Vector\ 1.png"), url("../images/Vector\ 2.png");
+  background-blend-mode: lighten;
+}
+

@@ -1,0 +1,266 @@
+.listing {
+  padding: 3rem;
+  position: relative;
+}
+
+.list {
+  width: 40%;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -20%);
+  padding: 1rem;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line {
+  border: 2px solid #d3b0ff;
+  width: 90%;
+  position: absolute;
+  top: 40%;
+  display: inline-block;
+  z-index: -100;
+  transform: translateY(-50%);
+}
+
+.circle {
+  width: 39px;
+  height: 39px;
+  display: inline-block;
+  fill: #d3b0ff;
+  z-index: 200;
+  border: 5px solid #fff;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+
+.left {
+  width: 65%;
+  display: grid;
+  grid-template-rows: 4;
+  grid-template-columns: 4;
+  grid-gap: 1rem;
+}
+
+.booking {
+  grid-row: 1/2;
+  grid-column: 1/4;
+  background: #ffffff;
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+  padding: 0.5rem 2rem;
+}
+
+.bookingText {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 120%;
+  text-align: left;
+}
+
+.flight {
+  display: flex;
+  justify-content: space-between;
+}
+
+.source {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookingsticker {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.belowText {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+}
+
+.flightLine {
+  width: 45rem;
+  height: 0.1rem;
+  background-color: #000;
+  margin-top: 1.5rem;
+}
+
+.weight {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+}
+
+.weightHeading {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 120%;
+  text-align: center;
+  color: #5c5c5c;
+}
+
+.weightsticker {
+  width: 50px;
+  height: 50px;
+  fill: #5c5c5c;
+}
+
+.load {
+  grid-row: 2/3;
+  grid-column: 2/4;
+  background: #ffffff;
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+  text-align: left;
+  padding: 0 2rem;
+}
+
+.loadText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadsticker {
+  width: 46px;
+  height: 44px;
+  border: 3px solid #5c5c5c;
+}
+
+.loadpara {
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.seller {
+  grid-row: 3/4;
+  grid-column: 1/3;
+  background: #ffffff;
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+  padding: 0 2rem;
+  text-align: left;
+  position: relative;
+}
+
+.sellerimage {
+  background-image: url("../images/Frame\ 64.png");
+  width: 141px;
+  height: 45px;
+  left: 50%;
+  top: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.insurance {
+  grid-row: 3/4;
+  grid-column: 3/4;
+  background: #ffffff;
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+}
+
+.insurancesticker {
+  fill: #ffe600;
+  width: 40px;
+  height: 40px;
+}
+
+.insuranceText {
+  font-size: 1.5rem;
+}
+
+.right {
+  background: #ffffff;
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01),
+    0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09),
+    0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+  padding: 2rem;
+}
+
+.priceheading {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.priceText {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #808080;
+}
+
+.priceLine {
+  border: 1px solid rgba(179, 179, 179, 0.5);
+}
+
+.pricemainText {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.priceButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #9747ff;
+  border-radius: 14px;
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  color: #ffffff;
+  border:none;
+  padding:.5rem 3rem;
+  width:90%;
+  margin:auto;
+}
